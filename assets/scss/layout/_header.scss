@@ -1,0 +1,30 @@
+.navbar-bg{
+  @include gradient-y($primary-200, #11002D);
+  @include lg {
+      background-image: none;
+    }
+}
+.navbar-border {
+  z-index: 1050;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 5);
+  height: 1px;
+  top: 76px;
+  @include lg {
+    top: 80px;
+    box-shadow: none;
+  }
+}
+.navbar {
+  &-dropdown {
+    top: 76px;
+  }
+  .navbar-toggler {
+    width: 44px;
+    height: 44px;
+  }
+  @include lg{
+    &-dropdown {
+        top: 20px;
+      }
+  }
+}
