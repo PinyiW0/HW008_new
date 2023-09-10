@@ -3,3 +3,8 @@
     opacity: 0.6;
   }
 }
+.bdr-hover{
+  &:hover{
+    border-bottom: 1 solid #1F0F39 !important;
+  }
+}

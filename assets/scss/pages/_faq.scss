@@ -1,0 +1,56 @@
+.bdr-dotted{
+  border-bottom: 2px dotted #fff;
+}
+.bdr-bottom-dotted{
+  border-bottom: 2px dotted #fff;
+  @include md{
+    border-bottom: none;
+  }
+}
+.text-tdark{
+  color: #1F0F39;
+}
+.accordion {
+  --bs-accordion-border-color: none;
+}
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #1F0F39;
+}
+
+.accordion-button {
+  padding: 32px 0 40px;
+
+  &:focus {
+    box-shadow: none;
+    border-color: #fff;
+  }
+
+  &::after {
+    content: none;
+  }
+
+  .addIcon {
+    display: block;
+  }
+
+  .removeIcon {
+    display: none;
+  }
+
+  &:not(.collapsed) {
+    .addIcon {
+      display: none;
+    }
+
+    .removeIcon {
+      display: block;
+    }
+  }
+}
+
+.accordion-body {
+  padding: 0;
+}

@@ -54,7 +54,6 @@
 @import "../../node_modules/bootstrap/scss/placeholders";
 
 //自定義components
-@import "./component/button";
 @import "./component/hover";
 @import "./component/circle";
 
@@ -69,4 +68,5 @@
 
 //pages
 @import './pages/index';
+@import './pages/faq';
 
