@@ -1,4 +1,6 @@
-# 網頁切版直播班 Vite 範例
+# 網頁切版直播班 第八周作業 - 早期切版練習專案
+DEMO: https://pinyiw0.github.io/HW008_new/
+
 
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
